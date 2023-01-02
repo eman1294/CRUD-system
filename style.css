@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh; 
+}
+.title{
+    background-color: darkgray;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+form {
+    background-image: url(image/book.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 10px;   
+    font-family: 'Courgette', cursive;
+}
+form .add{
+    width: 20%;
+}
+form .clear{
+    width: 20%;
+}
+.search{
+    font-family: 'FontAwesome';
+}
